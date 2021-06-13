@@ -31,7 +31,7 @@ const data = {
   slot: 'Garrafa Térmica',
   slot2: 'Pederneira',
   slot3: 'Lanterna',
-  slot4: 'Compressas',
+  slot4: '1 Compressa',
   slot5: 'N/a',
   slot6: 'N/a',
   
@@ -75,7 +75,7 @@ const data = {
   use_pc: 1,
 
   life: {
-    current: 23,
+    current: 22,
     max: 23,
   },
   sanity: {
@@ -196,6 +196,8 @@ $('#dano3').val(data.dano3)
 $('#alcance1').val(data.alcance1)
 $('#alcance2').val(data.alcance2)
 $('#alcance3').val(data.alcance3)
+$('#municao2').val(data.municao2)
+$('#municao3').val(data.municao3)
 
 $('.lifeBar').css('width', `${calculateBar(data.life.current, data.life.max)}%`)
 $('#lifeCount').text(`${data.life.current}/${data.life.max}`)
