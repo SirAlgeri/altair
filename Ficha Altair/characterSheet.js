@@ -34,6 +34,15 @@ const data = {
   slot4: '1 Compressa',
   slot5: 'N/a',
   slot6: 'N/a',
+  anotacoes: 'Mapa Trem',
+  anotacoes2: '',
+  anotacoes3: '',
+  anotacoes4: '',
+  anotacoes5: '',
+  anotacoes6: '',
+  anotacoes7: '',
+  anotacoes8: '',
+  anotacoes9: '',
   
 
   // PERÍCIAS 
@@ -158,6 +167,15 @@ $('#furtividade').val(data.furtividade)
 $('#idioma').val(data.idioma)
 $('#intimidar').val(data.intimidar)
 $('#investigar').val(data.investigar)
+$('#anotacoes').val(data.anotacoes)
+$('#anotacoes2').val(data.anotacoes2)
+$('#anotacoes3').val(data.anotacoes3)
+$('#anotacoes4').val(data.anotacoes4)
+$('#anotacoes5').val(data.anotacoes5)
+$('#anotacoes6').val(data.anotacoes6)
+$('#anotacoes7').val(data.anotacoes7)
+$('#anotacoes8').val(data.anotacoes8)
+$('#anotacoes8').val(data.anotacoes9)
 $('#jogos').val(data.jogos)
 $('#medicina').val(data.medicina)
 $('#natacao').val(data.natacao)
