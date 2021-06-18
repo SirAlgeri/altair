@@ -88,7 +88,7 @@ const data = {
     max: 23,
   },
   sanity: {
-    current: 47,
+    current: 45,
     max: 47,
   },
 
